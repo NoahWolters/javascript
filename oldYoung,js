@@ -1,0 +1,31 @@
+function old_Young(number) {
+  if (number < 50) return "young person";
+  else {
+    return "elder person";
+  }
+}
+console.log(old_Young(27));
+
+function oldYoung(number) {
+  if (number < 16) return "children";
+  else {
+    return "elder person";
+  }
+}
+console.log(oldYoung(6));
+
+/*function oldYoung(number) {
+  if (number < -1) return "children";
+  else {
+    return "";
+  }
+}
+console.log(oldYoung(-1));
+*/
+function oldYoung(number) {
+  if (number < 50) return "children";
+  else {
+    return "elder person";
+  }
+}
+console.log(oldYoung(86));
